@@ -11,6 +11,18 @@ body {
 	color:#333;
 }
 
+a {
+	color: #2589ca;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+a:hover {
+	color: #1d6c9f;
+	text-decoration:none;
+	border-bottom: 1px dotted #1d6c9f;
+}
+
 #firsthalf {
 	padding-top:40px;
 	background: url(../img/back2.jpg) no-repeat center center fixed;
@@ -106,3 +118,61 @@ span {
 		line-height:1;
 		font-weight:700;
 	}
+
+	.interested h2,
+	.interested h3 {
+		text-align:center;
+
+	}
+
+	.interested h2 {
+		font-size:90x;
+		padding-top:30px;
+	}
+
+	.interested h3 {
+		font-weight: 300;
+	}
+
+	.interested h3:last-child {
+		padding-bottom:15px;
+	}
+
+	#map-box {
+		background:#5bace1;
+		color:#fff;
+		position:absolute;
+		top:200px;
+		width:100%;
+		padding:15px 0;
+	}
+
+		#map-box h2 {
+			font-size:24px;
+			text-align:center;
+			display:block;
+		}
+
+	#organizers a,
+	#organizers p {
+		float: left;
+		display: inline-block;
+		color: #fff;
+		padding: 8px 5px;
+		background: #ff8167;
+		margin-right :20px;
+		margin-bottom: 20px
+	}
+
+	#organizers .img-members {
+		text-align:center;
+	}
+
+	#organizers .img-members a,
+	#organizers .img-members p {
+		float: none;
+		display: inline-block;
+		background:#fff;
+	}
+
+
